@@ -1,0 +1,59 @@
+{
+  "name": "autocomplete famous locations",
+  "priorityThresh": 1,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "ianthetechie",
+      "in": {
+        "text": "Stonehenge"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Stonehenge",
+            "layer": "venue",
+            "region": "Wiltshire",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "ianthetechie",
+      "in": {
+        "text": "the great pyramid"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "The Great Pyramid at Giza",
+            "gid": "geonames:venue:356475"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "ianthetechie",
+      "in": {
+        "text": "Louvre"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "name": "Musée du Louvre",
+            "locality": "Paris",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    }
+  ]
+}
