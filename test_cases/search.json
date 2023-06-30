@@ -611,6 +611,28 @@
           "region": "Ontario"
         }
       }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "user": "ianthetechie",
+      "notes": [
+        "test postal cities regression for Cupertino, CA"
+      ],
+      "in": {
+        "text": "1 Infinite Loop, Cupertino, CA",
+        "size": 1
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": {
+          "layer": "address",
+          "housenumber": "1",
+          "street": "Infinite Loop",
+          "locality": "Cupertino",
+          "region": "California"
+        }
+      }
     }
   ]
 }

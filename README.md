@@ -83,7 +83,7 @@ With no parameters, all tests are run against the endpoint named `prod` (Default
 $ npm test
 ```
 
-Environment names can be specifie with `-e`
+Environment names can be specified with `-e`
 ```bash
 $ npm test -- -e bigdev
 ```
