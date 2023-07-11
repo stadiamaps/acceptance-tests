@@ -17,6 +17,9 @@
         "properties": [
           {
             "layer": "address"
+          },
+          {
+            "layer": "street"
           }
         ]
       },

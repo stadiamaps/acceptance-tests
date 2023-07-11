@@ -32,10 +32,10 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "Julian",
       "type": "dev",
-      "notes": "Desired document has no zipcode, but should be 33801. If we ever get better data, find a new test case",
+      "notes": "Desired document has no zipcode, but should be 33801. Test case has been backfilled in our pipeline.",
       "in": {
         "text": "440 S Combee Rd, Lakeland, FL 33801"
       },
@@ -48,7 +48,7 @@
             "region": "Florida",
             "region_a": "FL",
             "county": "Polk County",
-            "locality": "Crystal Lake",
+            "locality": "Lakeland",
             "housenumber": "440",
             "street": "South Combee Road"
           }

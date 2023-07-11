@@ -53,7 +53,7 @@
         "text": "union square"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           {
             "label": "Union Square, San Francisco, CA, USA"

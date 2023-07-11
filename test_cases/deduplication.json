@@ -52,7 +52,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "user": "orangejulius",
       "endpoint": "autocomplete",
       "description": "Geonames 'City of X' style records should not appear",
@@ -80,7 +80,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "user": "orangejulius",
       "endpoint": "autocomplete",
       "description": "Geonames 'City of X' style records should not appear",
@@ -106,7 +106,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "user": "orangejulius",
       "endpoint": "autocomplete",
       "description": "Geonames 'New York City' record should not appear",
@@ -134,7 +134,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "orangejulius",
       "endpoint": "autocomplete",
       "description": "Multiple Berlin records should not appear",

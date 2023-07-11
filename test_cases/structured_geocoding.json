@@ -1076,7 +1076,7 @@
         "properties": [
           {
             "layer": "venue",
-            "name": "Lancaster Bureau of Police",
+            "name": "Lancaster City Bureau of Police",
             "locality": "Lancaster",
             "region_a": "PA"
           }
@@ -1122,7 +1122,7 @@
         "properties": [
           {
             "layer": "venue",
-            "name": "Lancaster Bureau of Police",
+            "name": "Lancaster City Bureau of Police",
             "locality": "Lancaster",
             "region_a": "PA"
           }

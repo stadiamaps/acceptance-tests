@@ -25,7 +25,7 @@
     },
     {
       "id": "2",
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "description": [
         "as above except using a prefix of 'antique'"
@@ -43,7 +43,7 @@
     },
     {
       "id": "3",
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "description": [
         "as above except using the full token of the stem of 'antiques'"

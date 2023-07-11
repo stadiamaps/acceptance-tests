@@ -145,11 +145,11 @@
             "layer": "address",
             "street": "독서당로39길",
             "housenumber": "22",
-            "county": "용산구",
-            "region": "서울특별시",
-            "country": "한국",
+            "county": "성동구",
+            "region": "서울",
+            "country": "대한민국",
             "country_a": "KOR",
-            "label": "한국 서울특별시 용산구 독서당로39길 22"
+            "label": "대한민국 서울 성동구 독서당로39길 22"
           }
         ]
       }

@@ -330,7 +330,7 @@
     },
     {
       "id": 11,
-      "status": "pass",
+      "status": "fail",
       "user": "Harish",
       "type": "dev",
       "description": "this is not a very precise test. Perhaps we should add a focus point. Potentially flaky test",
@@ -421,7 +421,7 @@
       "id": "12",
       "status": "pass",
       "issue": "https://github.com/pelias/api/pull/1437",
-      "description": "match_type should be correct on input not parsed well by libpostal",
+      "description": "match_type should be correct on input not parsed well by libpostal. Note that test has now been corrected to the right locality",
       "user": "julian",
       "in": {
         "text": "23 Huckleberry Hill, Fort Mitchell, KY"
@@ -434,7 +434,7 @@
             "confidence": 1,
             "match_type": "exact",
             "accuracy": "point",
-            "locality": "Fort Mitchell",
+            "locality": "Covington",
             "region_a": "KY"
           }
         ]
