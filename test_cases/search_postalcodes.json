@@ -317,6 +317,48 @@
               }
             ]
           }
+        },
+        {
+          "id": "18",
+          "status": "pass",
+          "description": "postal code in Hamburg, Germany",
+          "user": "ianthetechie",
+          "in": {
+            "text": "21029, Hamburg, Deutschland"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "21029",
+                "layer": "postalcode",
+                "postalcode": "21029",
+                "localadmin": "Hamburg",
+                "locality": "Hamburg",
+                "country_a": "DEU"
+              }
+            ]
+          }
+        },
+        {
+          "id": "19",
+          "status": "pass",
+          "description": "postal code in Vienna, Austria",
+          "user": "ianthetechie",
+          "in": {
+            "text": "1020 Leopoldstadt"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "1020",
+                "layer": "postalcode",
+                "postalcode": "1020",
+                "localadmin": "Wien",
+                "locality": "Vienna",
+                "country_a": "AUT"
+              }
+            ]
+          }
         }
   ]
 }
